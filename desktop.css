@@ -1,0 +1,256 @@
+div.searchBar_e6b769 {
+    display: var(--friends-searchbar-display) !important;
+}
+
+.message__5126c {
+    background-color: rgba(48, 48, 48, 0.2) !important;
+    padding: 4px;
+}
+
+.message__5126c:hover {
+    background-color: rgba(6, 6, 6, 0.2) !important;
+}
+
+.username_c19a55 {
+    color: rgb(189, 189, 189);
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.0) 0px,
+            rgba(0, 0, 0, 0.0) 2px,
+            rgba(0, 0, 0, 0.15) 3px,
+            rgba(0, 0, 0, 0.15) 4px);
+    animation: scanAnim 0.7s linear infinite;
+    pointer-events: none;
+    z-index: 9999;
+    display: var(--scanlines-display);
+}
+
+@keyframes scanAnim {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(8px);
+    }
+}
+
+main[aria-label="Friends"] {
+    background: var(--friends-bg-url) center/cover no-repeat !important;
+}
+
+main[aria-label="Friends"]>* {
+    background: transparent !important;
+}
+
+.peopleList__5ec2f,
+.peopleColumn__133bf,
+.tabBody__133bf {
+    background: transparent !important;
+}
+
+div.chat_f75fb0:not(.threadSidebarOpen_f75fb0) section.container__9293f,
+main.container__133bf section.container__9293f,
+div.chatLayerWrapper__01ae2 section.container__9293f {
+    padding-right: var(--vr-header-snippet-space);
+}
+
+div.headerBar__8a7fc.overlay__8a7fc {
+    padding-right: var(--vr-header-snippet-space);
+}
+
+div.headerBar__8a7fc.overlay__8a7fc .tab__65d41,
+div.headerBar__8a7fc.overlay__8a7fc .searchBar__1ac1c {
+    -webkit-app-region: no-drag;
+}
+
+div.videoControls_bfe55a div.subtitleContainer__49508 {
+    padding-right: calc(var(--vr-header-snippet-space) - 20px);
+}
+
+div.videoControls_bfe55a div.subtitleContainer__49508 .toolbar__9293f {
+    -webkit-app-region: no-drag;
+}
+
+.winButtons_c38106 {
+    display: var(--vr-header-snippet-winbuttons);
+}
+
+div[class*='base_'] {
+    grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
+}
+
+div[class*='base_']>div.bar_c38106 {
+    position: absolute;
+    top: var(--vr-header-snippet-top);
+    right: 0;
+    width: auto;
+    padding: 0 var(--vr-header-snippet-button-padding) 0 0;
+}
+
+div[class*='base_']>div.bar_c38106>.title_c38106 {
+    display: none;
+}
+
+div[class*='base_'] .trailing_c38106 {
+    background: none;
+    border: none;
+}
+
+ul[data-list-id="guildsnav"]>div.itemsContainer_ef3116>div.stack_dbd263 {
+    margin-top: var(--vr-header-snippet-server-padding);
+}
+
+.shop__6db1d section.showToolbar__9293f {
+    padding-right: var(--vr-header-snippet-space);
+}
+
+.shop__6db1d section.showToolbar__9293f .balanceWidgetMenu__80679 {
+    margin-right: 0;
+}
+
+.profileThemedContainer__656be .topRow__34940 {
+    align-items: end;
+    padding-bottom: 0;
+}
+
+.profileThemedContainer__656be .topRow__34940 .closeAction__34940 {
+    -webkit-app-region: no-drag;
+}
+
+.profileThemedContainer__656be .topRow__34940 .memberNameContainer__34940 {
+    padding-bottom: 12px;
+}
+
+.nowPlayingColumn__133bf {
+    display: none;
+}
+
+nav a[href] [class*="name_"] {
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.title__9293f {
+    display: none;
+}
+
+.sectionTitle__5ec2f {
+    display: none;
+}
+
+nav a[href="/channels/@me"] svg {
+    display: none;
+}
+
+nav a[href="/store"] svg {
+    display: none;
+}
+
+nav a[href="/shop"] svg {
+    display: none;
+}
+
+nav a[href="/channels/@me"] [class*="name_"] {
+    font-size: 0 !important;
+}
+
+nav a[href="/channels/@me"] [class*="name_"]::after {
+    content: "친구들";
+    font-size: 12px;
+}
+
+nav a[href="/store"] [class*="name_"] {
+    font-size: 0 !important;
+}
+
+nav a[href="/store"] [class*="name_"]::after {
+    content: "니트로";
+    font-size: 12px;
+}
+
+nav a[href="/shop"] [class*="name_"] {
+    font-size: 0 !important;
+}
+
+nav a[href="/shop"] [class*="name_"]::after {
+    content: "샵";
+    font-size: 12px;
+}
+
+.headerText__99e7c {
+    font-size: 0;
+}
+
+.headerText__99e7c::after {
+    content: "직접 메시지";
+    font-size: 12px;
+}
+
+.iconWrapper__9293f,
+.backForwardButtons__63abb,
+.trailing_c38106 {
+    display: none;
+}
+
+[data-slate-editor="true"] [class*="emptyText"]::after {
+    content: ":3";
+    font-size: 8px;
+    color: rgb(184, 184, 184);
+    position: absolute;
+    left: -1.2rem;
+    top: 1.1rem;
+    font-family: "Varela Round", sans-serif;
+}
+
+.childWrapper__6e9f8 {
+    position: relative;
+    background-color: transparent !important;
+}
+
+.childWrapper__6e9f8 svg {
+    display: none;
+}
+
+.childWrapper__6e9f8::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://cdn.discordapp.com/attachments/1474220540708520091/1484876785744351332/iu_.png?ex=69bfd2c5&is=69be8145&hm=72d74fc4281a65371072e5e0b5ab5d302340dca5f09cecd107144e46fbd1e5dd&");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+
+.childWrapper__6e9f8:hover::after,
+.childWrapper__6e9f8.selected::after,
+.childWrapper__6e9f8.active::after {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgb(184, 184, 184));
+}
+
+div[aria-label="Add Friend"] {
+    background-color: rgba(50, 50, 50, 0.6) !important;
+    color: rgb(171, 171, 171) !important;
+}
+
+div[aria-label="Add Friend"]:hover {
+    background-color: rgba(69, 69, 69, 0.6) !important;
+    color: rgb(184, 184, 184);
+}
+
+a[href*="quest"] {
+    display: none;
+}
+
+.actionButton_f8fa06 {
+    background-color: rgb(47, 47, 47, 0.3);
+    color: rgb(218, 218, 218);
+}
