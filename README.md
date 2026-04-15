@@ -1,5 +1,5 @@
 ```css
-@import url('https://raw.githubusercontent.com/cigawets/annyeong-requiem/refs/heads/main/desktop.css');
+@import url('https://raw.githubusercontent.com/cigawets/rest-theme/refs/heads/main/desktop.css');
 
 :root {
     /* Friends page background image */
